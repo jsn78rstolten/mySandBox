@@ -1,0 +1,46 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: rgb(196, 196, 196);
+}
+
+
+.timerBody {
+	background-color: aliceblue;
+	border: 1px solid black;
+	width: 100%;
+	height: 700px;
+	display: flex;
+	flex-direction: column;
+}
+
+.display {
+	background: rgb(182, 221, 253);
+	width: 100%;
+	height: 80px;
+	padding: 40px 10px;
+	text-align: center;
+	font-size: 4em;
+}
+
+.btn {
+	background-color: bisque;
+	display: flex;
+	justify-content: space-around;
+	padding: 10px 10px;
+}
+
+.btn input {
+	width: 48%;
+	font-size: 2.0em;
+	border: 0;
+	border-radius: 6px;
+	padding: 10px 0px;
+}
+
+.timerNote{
+	padding: 40px 20px;
+}
