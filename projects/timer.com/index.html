@@ -1,27 +1,73 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="reset.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>Таймер</title>
+	<title>Калькулятор</title>
 </head>
+
 <body>
-	<div class="timerBody">
-		<div class="display" id="time"><p>00:00:00</p></div>
-		<div class="btn">
-			<input type="button" value="start">
-			<input type="button" value="stop">
-		</div>
-		<div class="timerNote">
-			<h3>Timer</h3>
-			<p>...</p>
-		</div>
-	</div>
 
+	<div class="calculator">
+		<!-- Screen -->
+		<div class="calculator_screen">
+			<div class="calculator_screen__content"><p></p></div>
+		</div>
 
-	<script src="jquery-3.3.1.js"></script>
-	<script src="script.js"></script>
+		<div class="calculator_buttons">
+			<!-- Row1 -->
+			<div class="calculator_buttons__row1">
+				<div class="calculator_buttons__numbs">
+					<input type="button" value="7">
+					<input type="button" value="8">
+					<input type="button" value="9">
+				</div>
+				<div class="calculator_buttons__operators">
+					<input type="button" value="x">
+				</div>
+			</div>
+			<!-- Row2 -->
+			<div class="calculator_buttons__row2">
+				<div class="calculator_buttons__numbs">
+					<input type="button" value="4">
+					<input type="button" value="5">
+					<input type="button" value="6">
+				</div>
+				<div class="calculator_buttons__operators">
+					<input type="button" value="-">
+				</div>
+			</div>
+			<!-- Row3 -->
+			<div class="calculator_buttons__row3">
+				<div class="calculator_buttons__numbs">
+					<input type="button" value="3">
+					<input type="button" value="2">
+					<input type="button" value="1">
+				</div>
+				<div class="calculator_buttons__operators">
+					<input type="button" value="+">
+				</div>
+			</div>
+			<!-- Row4 -->
+			<div class="calculator_buttons__row4">
+					<div class="calculator_buttons__numbs">
+						<input type="button" value="0">
+						<input type="button" value=",">
+					</div>
+					<div class="calculator_buttons__operators">
+						<input type="button" value="=">
+					</div>
+				</div>
+
+		</div>
+
+		<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+			integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+		<script src="script.js"></script>
+		<!-- <script src="script.js"></script> -->
 </body>
+
 </html>
