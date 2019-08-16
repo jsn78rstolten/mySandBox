@@ -5,6 +5,18 @@
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="style.css">
 	<link rel="stylesheet" href="reset.css">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+		integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+		integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+	<!-- Latest compiled and minified JavaScript -->
+	<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+		integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous">
+	</script> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Калькулятор</title>
 </head>
@@ -14,7 +26,8 @@
 	<div class="calculator">
 		<!-- Screen -->
 		<div class="calculator_screen">
-			<div class="calculator_screen__content"><p></p></div>
+			<div class="calculator_screen__content">
+			</div>
 		</div>
 
 		<div class="calculator_buttons">
@@ -43,9 +56,9 @@
 			<!-- Row3 -->
 			<div class="calculator_buttons__row3">
 				<div class="calculator_buttons__numbs">
-					<input type="button" value="3">
-					<input type="button" value="2">
 					<input type="button" value="1">
+					<input type="button" value="2">
+					<input type="button" value="3">
 				</div>
 				<div class="calculator_buttons__operators">
 					<input type="button" value="+">
@@ -53,14 +66,16 @@
 			</div>
 			<!-- Row4 -->
 			<div class="calculator_buttons__row4">
-					<div class="calculator_buttons__numbs">
-						<input type="button" value="0">
-						<input type="button" value=",">
-					</div>
-					<div class="calculator_buttons__operators">
-						<input type="button" value="=">
-					</div>
+				<div class="calculator_buttons__numbs">
+					<input type="button" value="0">
+					<input type="button" value=",">
+					<input type="button" value="c" id="clear">
 				</div>
+				<div class="calculator_buttons__operators-total">
+					<input type="button" value="=">
+				</div>
+			</div>
+
 
 		</div>
 
